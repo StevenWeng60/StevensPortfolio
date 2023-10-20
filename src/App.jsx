@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import Button from '@mui/material/Button';
-import Switch from '@mui/material/Switch';
+import Cursor from './Miscellaneous/Cursor';
 import DisplaySwitch from './Miscellaneous/DisplaySwitch';
 import './App.css'
 
@@ -15,17 +15,19 @@ function App() {
 
   return (
     <div className="projectRoot" style={{background: checked ? "grey" : "white"}}>
+      <Cursor/>
       <div className='websiteHeader'>
         <h1 className='websiteTitle'>Steven's Portfolio</h1>
-        <div className='inlineBlock'>
-          <DisplaySwitch
-            onChange={handleSwitchChange} 
-            inputProps={{'aria-label': 'controlled'}} 
-          />
-        </div>
+      </div>
+      <div className="displaySwitch">
+        <DisplaySwitch
+          onChange={handleSwitchChange} 
+          inputProps={{'aria-label': 'controlled'}} 
+        />
       </div>
       <Button variant="contained">Hello world</Button>
     </div>
+    
   )
 }
 
