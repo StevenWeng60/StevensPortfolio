@@ -3,7 +3,19 @@
   width: 100vw;
 }
 
+.projectRoot {
+  height: 100%;
+}
+
 .websiteHeader {
   text-align: center;
   width: 100%;
+}
+
+.websiteTitle {
+  display:inline-block;
+}
+
+.inlineBlock {
+  display: inline-block;
 }
