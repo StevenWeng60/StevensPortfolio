@@ -1,0 +1,9 @@
+.introbody {
+  border: 10px solid black;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.introductionparent {
+  text-align:center;
+}

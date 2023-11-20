@@ -1,0 +1,5 @@
+.projectBody {
+  box-sizing: border-box;
+  border: 5px solid black;
+  text-align: center;
+}

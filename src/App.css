@@ -5,6 +5,7 @@
 
 .projectRoot {
   height: 100%;
+  overflow:hidden;
 }
 
 .displaySwitch {
@@ -21,6 +22,7 @@
 
 .websiteTitle {
   display:inline-block;
+  color: #83A1CD;
 }
 
 .inlineBlock {
