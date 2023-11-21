@@ -31,9 +31,6 @@ function App() {
     <ThemeProvider theme={darkTheme}>
       <div className="projectRoot">
         <Navbar/>
-        <div className='websiteHeader'>
-          <h1 className='websiteTitle'>Steven's Portfolio</h1>
-        </div>
         <div>
           <IntroBody/>
         </div>

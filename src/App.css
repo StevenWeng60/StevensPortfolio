@@ -1,11 +1,12 @@
 #root {
+  --mutedRed-color: #CB4C4E;
+  --mutedWhite-color: #F0F0F0;
   height: 100vh;
   width: 100vw;
 }
 
 .projectRoot {
   height: 100%;
-  overflow:hidden;
 }
 
 .displaySwitch {
@@ -20,10 +21,6 @@
   width: 100%;
 }
 
-.websiteTitle {
-  display:inline-block;
-  color: #83A1CD;
-}
 
 .inlineBlock {
   display: inline-block;

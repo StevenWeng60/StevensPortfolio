@@ -1,11 +1,11 @@
 .navbarContainer {
-  background: #121212;
   display: flex;
   align-items: center;
+  justify-content: space-around;
 }
 
-.websiteTitle {
-  color: #F8F8F8;
+.navbarTitle {
+  color: var(--mutedWhite-color);
   margin-left: 1em;
 }
 
@@ -15,5 +15,12 @@
 
 .navbarList li {
   display: inline-block;
-  margin: 0 0.5em 0 0.5em;
+  margin: 0 0.75em 0 0.75em;
+  font-weight: bold;
+  font-size: 0.9em;
+}
+
+.navbarList li:hover {
+  cursor: pointer;
+  color: var(--mutedRed-color);
 }

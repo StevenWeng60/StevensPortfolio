@@ -1,9 +1,52 @@
 .introbody {
-  border: 10px solid black;
+  margin: 1em 0 1em 0;
   box-sizing: border-box;
   width: 100%;
+  display: flex;
+  justify-content: space-around;
 }
 
-.introductionparent {
-  text-align:center;
+.introductiontext{
+  display: flex;
+  text-align:left;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1em;
+  width: 35%;
+  color: var(--mutedWhite-color);
+}
+
+.introductiontext h1{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.introductiontext h5 {
+  font-weight: bold;
+  margin-bottom: 0;
+  color: var(--mutedRed-color);
+}
+
+.introductiontext p {
+  font-weight: bold;
+  font-size: 0.9em;
+}
+
+.iam {
+  margin-bottom: 0;
+}
+
+.jobTitle {
+  margin-top: 0.75em;
+}
+
+.introductionpicture{
+  text-align: center;
+  width: 30%;
+  height: 30em;
+}
+
+.stevensImage {
+  height: 100%;
+  width: 400px;
 }
